@@ -1,0 +1,8 @@
+body h1, h2 {
+  font-family:'Aboreto', cursive;
+}
+
+body p.pclass {
+  font-family: 'Petit Formal Script', cursive;
+  line-height: 1.8rem;
+}

@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+}
+
+h3 {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(236 93 87);
+  width: 175px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  width: 500px;
+  margin: auto;
+}
+
+div.fieldtext {
+  margin-bottom: 3px;
+  margin-left: 37px;
+  text-align: left;
+}
+
+input::placeholder {
+  font-family: AtlasGrotesk, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  color: rgb(166 166 166);
+}
+
+.userinput {
+  width: 450px;
+  height: 45px;
+  border: 1px solid rgb(181 184 183);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+#engineeramount {
+  background-color: rgb(243 243 243);
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-left: 2px;
+}
+
+.userinput#engineeramount {
+  margin-bottom: 12px;
+}
+
+#submitbutton {
+  width: 100px;
+  height: 37px;
+  border-style: hidden;
+  background-color: rgb(236 93 87);
+  border-radius: 50px;
+  margin-left: 345px;
+}
+
+input[value="SUBMIT"] {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+}

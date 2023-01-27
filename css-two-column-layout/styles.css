@@ -1,0 +1,66 @@
+.container {
+  max-width: 1200px;
+  margin: 75px auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+}
+
+.column-full {
+  text-align: center;
+}
+
+.column-half {
+  display: flex;
+  margin: 3rem;
+}
+
+.column-3-quarter {
+  padding-top: 1.5rem;
+}
+
+button {
+  width: 13rem;
+  height: 3rem;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  color: rgb(211 86 79);
+
+  /* letter-spacing: 0.1rem; */
+  margin-top: 1rem;
+  background-color: white;
+  border: 3px solid rgb(211 86 79);
+}
+
+.learnbutton:hover {
+  background-color: rgb(211 86 79);
+  color: white;
+}

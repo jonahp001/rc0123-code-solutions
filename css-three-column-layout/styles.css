@@ -1,0 +1,50 @@
+.container {
+  max-width: 1200px;
+  margin: 5rem auto;
+  background-color: rgb(25 150 218);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-full {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  margin: 2rem 0 1rem;
+  text-align: center;
+}
+
+.column-third {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  padding: 0 3rem 3rem;
+  line-height: 1.5rem;
+  flex-basis: calc(100%/3);
+}
+
+img {
+  box-sizing: content-box;
+  max-width: 25%;
+  background-color: white;
+  border-radius: 50%;
+  border: 35px solid white;
+  overflow: visible;
+}
+
+.column-third > h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.column-third > p {
+  padding: 0 1rem;
+  color: rgb(204 221 231);
+}

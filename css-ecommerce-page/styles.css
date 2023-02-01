@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.columnfifth {
+  flex-basis: 20%;
+  padding: 0 0.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.greytext {
+  color: #d5d5d5;
+}
+
+.strikethru {
+  text-decoration: line-through;
+}
+
+.textdescription {
+  line-height: 2rem;
+}
+
+.textdescription > p {
+  display: inline;
+}
+
+.textdescription p {
+  display: inline;
+}
+
+.highlight {
+  background-color: #fff2e7;
+}

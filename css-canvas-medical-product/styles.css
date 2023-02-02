@@ -15,9 +15,12 @@
 
 .bottomborder {
   border-bottom: 1px solid #b8b8b8;
+  width: 100vw;
   position: relative;
   margin-left: -50vw;
   margin-right: -50vw;
+  left: 50%;
+  right: 50%;
 }
 
 .columntitle {
@@ -91,6 +94,7 @@
 #secondimage {
   z-index: 1;
   position: relative;
+  background-color: #fafafa;
 }
 
 .columnhalf {
@@ -102,6 +106,11 @@
 
 #image2 {
   width: 100%;
+}
+
+.light-bg-extend {
+  box-shadow: 0 0 0 100vmax #fafafa;
+  clip-path: inset(0 -100vmax);
 }
 
 .columnhalf a {
@@ -147,15 +156,6 @@
 
 .doctorquote {
   margin-bottom: 0;
-}
-
-.care-at-command-bg {
-  position: absolute;
-  background-color: #fafafa;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  inset: 0;
-  z-index: -1;
 }
 
 #image3text {
@@ -204,6 +204,7 @@
 #fourthimage {
   z-index: 1;
   position: relative;
+  background-color: #fafafa;
 }
 
 #image4 {
@@ -264,15 +265,14 @@
   color: white;
   position: relative;
   z-index: 1;
+  background-color: #525351;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
-.infoareabackground {
-  background-color: #525351;
-  position: absolute;
-  z-index: -1;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  inset: 0;
+.dark-bg-extend {
+  box-shadow: 0 0 0 100vmax #525351;
+  clip-path: inset(0 -100vmax);
 }
 
 #infoarea h3 {

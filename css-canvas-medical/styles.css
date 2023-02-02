@@ -15,9 +15,12 @@
 
 .bottomborder {
   border-bottom: 1px solid #b8b8b8;
+  width: 100vw;
   position: relative;
   margin-left: -50vw;
   margin-right: -50vw;
+  left: 50%;
+  right: 50%;
 }
 
 .columntitle {
@@ -105,19 +108,23 @@
 
 .clinicianlocation {
   background-color: #fafafa;
-  padding-bottom: 2rem;
-  position: relative;
   z-index: 1;
 }
 
-.clinicianbg {
-  position: absolute;
-  background-color: #fafafa;
+.light-bg-extend {
+  box-shadow: 0 0 0 100vmax #fafafa;
+  clip-path: inset(0 -100vmax);
+}
+
+.light-bg-border-bot {
+  border-bottom: 2px solid #e7e9ec;
+  width: 100vw;
+  position: relative;
+  padding-bottom: 2rem;
   margin-left: -50vw;
   margin-right: -50vw;
-  inset: 0;
-  z-index: -1;
-  border-bottom: 2px solid #e7e9ec;
+  left: 50%;
+  right: 50%;
 }
 
 .clinicianlocation h3 {
@@ -194,17 +201,14 @@
   color: white;
   position: relative;
   z-index: 1;
-
-  /* padding-top: 2rem; */
+  background-color: #525351;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
-.infoareabackground {
-  background-color: #525351;
-  position: absolute;
-  z-index: -1;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  inset: 0;
+.dark-bg-extend {
+  box-shadow: 0 0 0 100vmax #525351;
+  clip-path: inset(0 -100vmax);
 }
 
 #infoarea h3 {

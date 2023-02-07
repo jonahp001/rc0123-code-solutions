@@ -92,7 +92,7 @@ h1 {
   z-index: 1;
 }
 
-.columnfull > .picturetext > h2 {
+.picturetext > h2 {
   font-family: "Tiempos Headline", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -126,7 +126,7 @@ h1 {
   font-weight: 1000;
 }
 
-.photo-area > .smaller-title-row > h2 {
+.smaller-title-row > h2 {
   text-align: center;
   font-family: "Tiempos Headline", sans-serif;
   font-style: normal;

@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.lightbulb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: #ffc600;
+  border-radius: 50%;
+  box-shadow: 0 0 35px #ffc600;
+  border: none;
+}
+
+.bg-light {
+  position: fixed;
+  background-color: #fff6d6;
+  inset: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.darkbulb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: rgb(66 66 66);
+  border-radius: 50%;
+  border: none;
+}
+
+.bg-dark {
+  position: fixed;
+  background-color: rgb(46 46 46);
+  inset: 0;
+}

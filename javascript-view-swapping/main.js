@@ -11,15 +11,13 @@ $tabContainer.addEventListener('click', function (event) {
         $allTabs[i].className = 'tab';
       }
     }
-  }
-  var $csLanguage = event.target.getAttribute('data-view');
-  for (var j = 0; j < $allViews.length; j++) {
-    if ($allViews[j].getAttribute('data-view') !== $csLanguage) {
-      // $csLanguage.className = 'view';
-      $allViews[j].className = 'view hidden';
-    } else {
-      $allViews[j].className = 'view';
-      // $csLanguage.className = 'view';
+    var $csLanguage = event.target.getAttribute('data-view');
+    for (var j = 0; j < $allViews.length; j++) {
+      if ($allViews[j].getAttribute('data-view') !== $csLanguage) {
+        $allViews[j].className = 'view hidden';
+      } else {
+        $allViews[j].className = 'view';
+      }
     }
   }
 

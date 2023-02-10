@@ -25,4 +25,6 @@ var jsonStudent = '{"Number id": 30128759, "String name":"joney baloney"}';
 console.log('typeof jsonStudent: ', typeof jsonStudent);
 
 var jsonObject = JSON.parse(jsonStudent);
-console.log('typeof jsonObject: ', typeof jsonObject, jsonObject);
+
+console.log('jsonObject result: ', jsonObject);
+console.log('typeof jsonObject: ', typeof jsonObject);

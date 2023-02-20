@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#firstrow {
+  justify-content: space-between;
+}
+
+.bottomborder {
+  border-bottom: 1px solid #b8b8b8;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  left: 50%;
+  right: 50%;
+}
+
+.columntitle {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #294464;
+  margin-bottom: -2.5rem;
+  margin-top: -3.5rem;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+.topnavlinks > a {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #b8b8b8;
+  text-decoration: none;
+  padding: 0 1.5rem;
+}
+
+.topnavlinks > a.contactbutton {
+  border-radius: 5px;
+  background-color: #294464;
+  padding: 12px 17px;
+  color: white;
+}
+
+.columnfull {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#hero {
+  max-width: 1200px;
+  padding: 10rem 0;
+  opacity: 0.8;
+}
+
+.overlay {
+  background-color: black;
+  opacity: 0.2;
+  position: absolute;
+  inset: 0;
+  margin: 10rem 0;
+}
+
+.picturetext {
+  position: absolute;
+  margin-right: 32rem;
+  margin-left: 5rem;
+  z-index: 1;
+}
+
+.picturetext > h2 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.7rem;
+  color: white;
+}
+
+.picturetext > p {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  line-height: 2rem;
+  font-size: 19px;
+}
+
+.long-col {
+  width: 51rem;
+  min-width: 51rem;
+  margin-bottom: 10rem;
+}
+
+.center-text-row {
+  text-align: center;
+}
+
+.long-col h2 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #6e6e6e;
+}
+
+.long-col-main-text {
+  padding: 3rem;
+}
+
+.bignum-text {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: -1.2rem;
+}
+
+.bignum-text > h3 {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #6e6e6e;
+  line-height: 2rem;
+  font-size: 1.7rem;
+  padding-left: 1rem;
+}
+
+.long-col-main-text > p {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #6e6e6e;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+#learnmorerow {
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.columnhalf {
+  margin: 1rem 0;
+}
+
+#learnmorerow h3 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #6e6e6e;
+  margin-top: 0;
+  margin-bottom: -0.5rem;
+}
+
+#learnmorerow p {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  color: #6e6e6e;
+  margin-bottom: 0;
+}
+
+.columnbutton > .getstartedbutton {
+  border-radius: 5px;
+  background-color: #294464;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 3rem;
+}
+
+#infoarea {
+  justify-content: flex-start;
+  flex-basis: 50%;
+  color: white;
+  position: relative;
+  z-index: 1;
+  background-color: #525351;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.dark-bg-extend {
+  box-shadow: 0 0 0 100vmax #525351;
+  clip-path: inset(0 -100vmax);
+}
+
+#infoarea h3 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+#infoarea p {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 2rem;
+}
+
+.columnhalfinfo {
+  flex-basis: 50%;
+}
+
+#extralinks {
+  display: flex;
+}
+
+.columnhalfinfo > .columnquarter {
+  flex-basis: 50%;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+  padding: 6rem 0;
+}
+
+.columnquarter h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.columnquarter a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  line-height: 3rem;
+}
+
+#columnlast {
+  display: flex;
+  justify-content: flex-start;
+  margin: 3rem 0;
+}
+
+#columnlast a {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #525351;
+  text-decoration: none;
+  margin-right: 2rem;
+}

@@ -10,6 +10,8 @@ function countDownEarth() {
   } else if ($h1.textContent === '1') {
     $h1.textContent = '~Earth Beeeelooowww Us~';
   }
+  var countDownId = setInterval(countDownEarth, 1000);
+  clearInterval(countDownId);
 }
 
 setInterval(countDownEarth, 1000);

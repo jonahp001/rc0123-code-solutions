@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  max-width: 65rem;
+  margin: 5rem  auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  flex-basis: 50%;
+}
+
+i {
+  font-size: 4rem;
+  text-align: center;
+  flex-basis: 25%;
+}
+
+.fa-chevron-left {
+  margin-right: 10rem;
+}
+
+.fa-chevron-right {
+  margin-left: 10rem;
+}
+
+button {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 3rem 1rem;
+  border-radius: 50%;
+  border: 0.25rem solid black;
+  background-color: transparent;
+}
+
+.circle-bg {
+  background-color: black;
+}
+
+i:hover,
+button:hover {
+  cursor: pointer;
+}

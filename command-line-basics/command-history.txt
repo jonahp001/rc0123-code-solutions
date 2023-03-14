@@ -1,0 +1,500 @@
+   62  git status
+   63  git add css-cascade/
+   64  git status
+   65  git commit -m "Jonah Park css-cascade Exercise"
+   66  git push origin css-cascade
+   67  git switch main
+   68  git pull origin main
+   69  git switch css-cascade 
+   70  git switch main
+   71  git pull origin main
+   72  git switch css-canvas-medical-implementation 
+   73  git switch main
+   74  git switch css-canvas-medical-implementation 
+   75  git switch main
+   76  git pull origin main
+   77  git switch css-canvas-medical-implementation 
+   78  git switch main
+   79  git branch string-manipulation-1
+   80  git switch string-manipulation-1 
+   81  git status
+   82  git add string-manipulation-1/
+   83  git status
+   84  git commit -m "Jonah Park string-manipulation-1 Exercise"
+   85  git push origin string-manipulation-1 
+   86  git switch main
+   87  git switch css-canvas-medical-implementation 
+   88  git status
+   89  git add css-canvas-medical-implementation
+   90  git status
+   91  git commit -m "Jonah Park css-canvas-medical-implementation Challenge"
+   92  git push origin css-canvas-medical-implementation 
+   93  git switch main
+   94  git branch array-manipulation-1
+   95  git switch array-manipulation-1 
+   96  git switch main
+   97  git branch object-manipulation-1
+   98  git switch object-manipulation-1 
+   99  git switch array-manipulation-1 
+  100  git add array-manipulation-1/
+  101  git status
+  102  git commit -m "Jonah Park array-manipulation-1 Exercise"
+  103  git push origin array-manipulation-1 
+  104  git switch main
+  105  git switch string-manipulation-1 
+  106  git add string-manipulation-1/
+  107  git status
+  108  git commit -m "Jonah Park string-manipulation-1 Exercise (Rev 1)"
+  109  git push origin string-manipulation-1 
+  110  git switch main
+  111  git switch object-manipulation-1 
+  112  git status
+  113  git add object-manipulation-1/
+  114  git status
+  115  git commit -m "Jonah Park object-manipulation-1 Exercise"
+  116  git push origin object-manipulation-1 
+  117  git switch main
+  118  git pull origin main
+  119  git branch string-manipulation-2
+  120  git switch string-manipulation-2
+  121  git add string-manipulation-2/
+  122  git status
+  123  git commit -m "Jonah Park string-manipulation-2 Exercise"
+  124  git push origin string-manipulation-2
+  125  git switch main
+  126  git pull origin main
+  127  git branch array-manipulation-2
+  128  git switch array-manipulation-2
+  129  git status
+  130  git add array-manipulation-2/
+  131  git status
+  132  git commit -m "Jonah Park array-manipulation-2 Exercise"
+  133  git push origin array-manipulation-2
+  134  git switch main
+  135  git pull origin main
+  136  git branch dom-querying
+  137  git switch dom-querying 
+  138  git add dom-querying/
+  139  git status
+  140  git commit -m "Jonah Park dom-querying Exercise"
+  141  git push origin dom-querying 
+  142  git switch main
+  143  git branch dom-events
+  144  git switch dom-events 
+  145  git switch main
+  146  git pull origin main
+  147  git switch dom-events 
+  148  git status
+  149  git add dom-events/
+  150  git status
+  151  git commit -m "Jonah Park dom-events Exercise"
+  152  git push origin dom-events 
+  153  git switch main
+  154  git branch dom-manipulation
+  155  git switch dom-manipulation 
+  156  git add dom-manipulation/
+  157  git status
+  158  git commit -m "Jonah Park dom-manipulation Exercise"
+  159  git push origin dom-manipulation 
+  160  git switch main
+  161  git branch css-transforms
+  162  git switch css-transforms 
+  163  git add css-transforms/
+  164  git status
+  165  git commit -m "Jonah Park css-transforms Exercise"
+  166  git push origin css-transforms 
+  167  git switch main
+  168  git pull origin main
+  169  git switch css-canvas-medical-implementation 
+  170  git switch main
+  171  git switch css-canvas-medical-about-us
+  172  git switch css-canvas-medical-about-us
+  173  git --list
+  174  git branch --list
+  175  git branch css-canvas-medical-about-us
+  176  git switch css-canvas-medical-about-us 
+  177  git status
+  178  git add css-canvas-medical-about-us/
+  179  git status
+  180  git commit -m "Jonah Park css-canvas-medical-about-us Challenge"
+  181  git add css-canvas-medical-about-us/
+  182  git status
+  183  git commit -m "Jonah Park css-canvas-medical-about-us Challenge"
+  184  git push origin css-canvas-medical-about-us 
+  185  git switch main
+  186  git switch css-canvas-medical-about-us 
+  187  git status
+  188  git add css-canvas-medical-about-us/
+  189  git status
+  190  git commit -m "Jonah Park css-canvas-medical-about-us Challenge (Rev 1)"
+  191  git push origin css-canvas-medical-about-us 
+  192  git switch main
+  193  git pull origin main
+  194  git branch javascript-modal
+  195  git switch javascript-modal 
+  196  git status
+  197  git add javascript-modal/
+  198  git status
+  199  git commit -m "Jonah Park javascript-modal Exercise"
+  200  git push origin javascript-modal 
+  201  git switch main
+  202  git branch javascript-light-bulb
+  203  git switch javascript-light-bulb 
+  204  git add javascript-light-bulb/
+  205  git status
+  206  git commit -m "Jonah Park javascript-light-bulb Exercise"
+  207  git push origin javascript-light-bulb 
+  208  git switch main
+  209  git branch object-manipulation-2
+  210  git switch object-manipulation-2
+  211  git status
+  212  git add object-manipulation-2/
+  213  git status
+  214  git commit -m "Jonah Park object-manipulation-2 Challenge"
+  215  git push origin object-manipulation-2
+  216  git switch main
+  217  git branch css-transitions
+  218  git switch css-transitions 
+  219  git switch main
+  220  git branch javascript-forms
+  221  git switch javascript-forms
+  222  git switch css-transitions 
+  223  git status
+  224  git add css-transitions/
+  225  git status
+  226  git commit -m "Jonah Park css-transitions Exercise"
+  227  git push origin css-transitions 
+  228  git switch javascript-forms
+  229  git add javascript-forms/
+  230  git commit -m "Jonah Park javascript-forms Exercise"
+  231  git push origin javascript-forms
+  232  git switch main
+  233  git pull origin value
+  234  git pull origin main
+  235  git branch dom-creation
+  236  git switch dom-creation 
+  237  git status
+  238  git add dom-creation/
+  239  git status
+  240  git commit -m "Jonah Park dom-creation Exercise"
+  241  git push origin dom-creation 
+  242  git switch main
+  243  git switch dom-creation 
+  244  git switch main
+  245  git branch javascript-typing-tutor
+  246  git switch javascript-typing-tutor 
+  247  git switch main
+  248  git branch css-media-queries
+  249  git switch css-media-queries 
+  250  git status
+  251  git add css-media-queries/
+  252  git commit -m "Jonah Park css-media-queries Exercise"
+  253  git push origin css-media-queries 
+  254  git switch main
+  255  git switch javascript-typing-tutor 
+  256  git switch main
+  257  git pull origin main
+  258  git pull origin main
+  259  git switch javascript-typing-tutor 
+  260  git switch main
+  261  git branch dom-event-delegation
+  262  git switch dom-event-delegation 
+  263  git status
+  264  git add dom-eve
+  265  git add dom-event-delegation/
+  266  git status
+  267  git commit -m "Jonah Park dom-event-delegation Exercise"
+  268  git push origin dom-event-delegation 
+  269  git switch main
+  270  git branch javascrip-view-swapping
+  271  git branch -d javascrip-view-swapping 
+  272  git branch javascript-view-swapping
+  273  git switch javascript-view-swapping 
+  274  git add javascript-view-swapping/
+  275  git status
+  276  git commit -m "Jonah Park javascript-view-swapping Exercise"
+  277  git push origin javascript-view-swapping 
+  278  git switch main
+  279  git switch javascript-typing-tutor 
+  280  git switch javascript-view-swapping 
+  281  git status javascript-view-swapping/
+  282  git add javascript-view-swapping/
+  283  git status
+  284  git commit -m "Jonah Park javascript-view-swapping Exercise (Rev 1)"
+  285  git push origin javascript-view-swapping 
+  286  git switch main
+  287  git branch css-responsive-layout
+  288  git switch css-responsive-layout 
+  289  git status
+  290  git add css-responsive-layout/
+  291  git status
+  292  git commit -m "Jonah Park css-responsive-layout Exercise"
+  293  git push origin css-responsive-layout 
+  294  git switch main
+  295  git branch javascript-and-json
+  296  git switch javascript-and-json 
+  297  git status
+  298  git add javascript-and-json/
+  299  git status
+  300  git commit -m "Jonah Park javascript-and-json Exercise"
+  301  git push origin javascript-and-json 
+  302  git switch main
+  303  git switch javascript-and-json 
+  304  git add javascript-and-json/
+  305  git commit -m "Jonah Park javascript-and-json Exercise (Rev 1)"
+  306  git push origin javascript-and-json 
+  307  git switch main
+  308  git branch javascript-local-storage
+  309  git switch javascript-local-storage 
+  310  git add javascript-local-storage/
+  311  git status
+  312  git commit -m 
+  313  git commit -m "Jonah Park javascript-local-storage Exercise"
+  314  git push origin javascript-local-storage 
+  315  git switch main
+  316  git switch javascript-typing-tutor 
+  317  git status
+  318  git add javascript-typing-tutor/
+  319  git status
+  320  git commit -m "Jonah Park css-typing-tutor Challenge"
+  321  git push origin javascript-typing-tutor 
+  322  git switch main
+  323  git pull origin main
+  324  git branch string-manipulation-3
+  325  git switch string-manipulation-3
+  326  git switch main
+  327  git switch string-manipulation-3
+  328  git switch main
+  329  git branch css-canvas-medical-blog
+  330  git switch css-canvas-medical-blog 
+  331  git status
+  332  git add css-canvas-medical-blog/
+  333  git status
+  334  git commit -m "Jonah Park css-canvas-medical-blog"
+  335  git push origin css-canvas-medical-blog 
+  336  git switch main
+  337  git status
+  338  git commit -m "Jonah Park javascript-custom-methods Exercise"
+  339  git push origin javascript-custom-methods 
+  340  git switch main
+  341  git pull origin main
+  342  git branch javascript-this
+  343  git switch javascript-this 
+  344  git status
+  345  git add javascript-this/
+  346  git commit -m "Jonah Park javascript-this Exercise"
+  347  git push origin javascript-this 
+  348  git switch main
+  349  git branch javascript-prototypes
+  350  git switch javascript-prototypes 
+  351  git add javascript-prototypes/
+  352  git commit -m "Jonah Park javascript-prototypes Exercise"
+  353  git push origin javascript-prototypes 
+  354  git switch main
+  355  git pull origin main
+  356  git switch string-manipulation-3
+  357  git status
+  358  git add string-manipulation-3/
+  359  git commit -m "Jonah Park string-manipulation-3 Exercise"
+  360  git push origin string-manipulation-3
+  361  git switch main
+  362  git switch css-canvas-medical-product 
+  363  git switch main
+  364  git branch css-canvas-medical-contact-us
+  365  git switch css-canvas-medical-contact-us 
+  366  git status
+  367  git add css-canvas-medical-contact-us/
+  368  git commit -m "Jonah Park css-canvas-medical-contact-us Challenge"
+  369  git push origin css-canvas-medical-contact-us 
+  370  git switch main
+  371  git pull origin main
+  372  git branch javascript-constructors
+  373  git switch javascript-constructors 
+  374  git status
+  375  git add javascript-constructors/
+  376  git commit -m "Jonah Park javascript-constructors Exercise"
+  377  git status
+  378  git add javascript-constructors/
+  379  git status
+  380  git commit -m "Jonah Park javascript-constructors Exercise"
+  381  git push origin javascript-constructors 
+  382  git switch main
+  383  git branch javascript-bank
+  384  git switch javascript-bank 
+  385  git status
+  386  git add javascript-bank/
+  387  git commit -m "Jonah Park javascript-bank Challenge"
+  388  git push origin javascript-bank 
+  389  git switch main
+  390  git pull origin main
+  391  git branch javascript-timers
+  392  git switch javascript-timers 
+  393  git status
+  394  git add javascript-timers/
+  395  git commit -m "Jonah Park javascript-timers Exercise"
+  396  git push origin javascript-timers
+  397  git switch main
+  398  git switch javascript-timers 
+  399  git add javascript-timers/
+  400  git commit -m "Jonah Park javascript-timers Exercise (Rev 1)"
+  401  git push origin javascript-timers
+  402  git switch main
+  403  git switch javascript-timers 
+  404  git add javascript-timers/
+  405  git commit -m "Jonah Park javascript-timers Exercise (Rev 2)"
+  406  git push origin javascript-timers
+  407  git switch main
+  408  git branch javascript-carousel
+  409  git switch javascript-carousel 
+  410  git status
+  411  git add javascript-carousel/
+  412  git commit -m "Jonah Park javascript-carousel Challenge"
+  413  git push origin javascript-carousel 
+  414  git switch main
+  415  git branch http-messages
+  416  git switch http-messages 
+  417  https https://example.com
+  418  https --verbose https://example.com
+  419  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  420  http --body GET https://example.com > http-messages/index.html
+  421  git status
+  422  git add http-messages/
+  423  git commit -m "Jonah Park http-messages Exercise"
+  424  git push origin http-messages 
+  425  git switch main
+  426  git pull origin main
+  427  git branch javascript-ajax
+  428  git switch javascript-ajax 
+  429  git status
+  430  git add javascript-ajax/
+  431  git status
+  432  git commit -m "Jonah Park javascript-ajax Exercise"
+  433  git push origin javascript-ajax 
+  434  git switch main
+  435  git pull origin main
+  436  git branch array-manipulation-3
+  437  git switch array-manipulation-3
+  438  git switch main
+  439  git switch array-manipulation-3
+  440  git status
+  441  git add array-manipulation-3/
+  442  git commit -m "Jonah Park array-manipulation-3 Exercise"
+  443  git push origin array-manipulation-3
+  444  git switch main
+  445  git switch array-manipulation-3 
+  446  git status
+  447  git add array-manipulation-3/src/equal.js 
+  448  git add array-manipulation-3/src/flatten.js 
+  449  git add array-manipulation-3/src/unique.js 
+  450  git add array-manipulation-3/src/zip.js 
+  451  git status
+  452  git commit -m "Jonah Park array-manipulation-3 Exercise (Rev1)"
+  453  git push origin array-manipulation-3 
+  454  git switch main
+  455  git branch object-manipulation-3
+  456  git switch object-manipulation-3 
+  457  git status
+  458  git add object-manipulation-3/
+  459  git status
+  460  git commit -m "Jonah Park object-manipulation-3 Challenge"
+  461  git push origin object-manipulation-3 
+  462  git switch main
+  463  git pull origin main
+  464  git branch es6-const-let
+  465  git switch es6-const-let 
+  466  git status
+  467  git add es6-const-let/
+  468  git commit -m "Jonah Park es6-const-let Exercise"
+  469  git push origin es6-const-let 
+  470  git switch main
+  471  git pull origin main
+  472  git branch es6-template-literals
+  473  git switch es6-template-literals 
+  474  git status
+  475  git add es6-template-literals/
+  476  git commit -m "Jonah Park es6-template-literals Exercise"
+  477  git push origin es6-template-literals 
+  478  git switch main
+  479  git pull origin main
+  480  git branch es6-destructuring
+  481  git switch es6-destructuring 
+  482  git status
+  483  git add es6-destructuring/
+  484  git commit -m "Jonah Park es6-destructuring Exercise"
+  485  git push origin es6-destructuring 
+  486  git switch main
+  487  git pull origin main
+  488  git branch es6-arrow-functions
+  489  git switch es6-arrow-functions 
+  490  git status
+  491  git add es6-arrow-functions/
+  492  git commit -m "Jonah Park es6-arrow-functions Exercise"
+  493  git push origin es6-arrow-functions 
+  494  git switch main
+  495  git branch command-line-basics
+  496  git switch command-line-basics 
+  497  cd command-line-basics
+  498  man man
+  499  man cat
+  500  cat laziness.txt - impatience.txt - hubris.txt 
+  501  cd command-line-basics
+  502  man cat
+  503  cat laziness.txt 
+  504  cat impatience.txt 
+  505  cat hubris.txt 
+  506  cat laziness.txt impatience.txt hubris.txt 
+  507  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  508  cat three-virtues.txt 
+  509  man ls
+  510  ls
+  511  ls -a
+  512  ls -F
+  513  lfz-staff/ ls
+  514  lfz-staff/ ls -a
+  515  ls lfz-staff/
+  516  ls lfz-staff/ -a
+  517  ls lfz-staff/ -F
+  518  ls -aF lfz-staff > lfz-staff/contents.txt
+  519  cat lfz-staff/contents.txt 
+  520  man pwd
+  521  pwd
+  522  pwd > i-was-here.txt
+  523  ls
+  524  cat i-was-here.txt 
+  525  man echo
+  526  echo 'Hello, World!'
+  527  echo 'Hello, World!' > hello.txt
+  528  ls
+  529  cat hello.txt 
+  530  man touch
+  531  touch tag-youre-it.txt
+  532  ls
+  533  touch snoot/boop.txt
+  534  ls snoot/
+  535  man mkdir
+  536  mkdir parent
+  537  ls parent/
+  538  ls
+  539  man mkdir
+  540  mkdir parent/child
+  541  mkdir parent/child/grandchild
+  542  mkdir -p parent/child/grandchild
+  543  touch parent/child/grandchild/.gitkeep
+  544  ls -a
+  545  man mv
+  546  mv pokiemans/ pokemon
+  547  ls
+  548  man rm
+  549  rm lol.txt 
+  550  ls
+  551  rm -r kill-me/
+  552  ls
+  553  man cp
+  554  cp and-then.txt 
+  555  cp and-then.txt no-and-then.txt
+  556  ls
+  557  cat and-then.txt 
+  558  cat no-and-then.txt 
+  559  man history
+  560  history
+  561  history > command-history.txt

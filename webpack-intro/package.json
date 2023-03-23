@@ -1,0 +1,20 @@
+{
+  "name": "webpack-intro",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

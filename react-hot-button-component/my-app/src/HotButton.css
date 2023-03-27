@@ -1,0 +1,8 @@
+.HotButton {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.5rem 1.75rem;
+  border-radius: 0.35rem;
+  border: 0.35rem solid rgb(87 107 127);
+  box-shadow: 0.5rem 0.5rem black;
+}

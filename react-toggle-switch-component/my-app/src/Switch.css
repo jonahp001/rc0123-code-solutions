@@ -1,0 +1,49 @@
+.FlexDivOfSwitch {
+  display: flex;
+  padding: 3rem;
+}
+
+.DivOfSwitch {
+  display: grid;
+  align-items: center;
+}
+
+.SwitchBg {
+  grid-column: 1;
+  grid-row: 1;
+  cursor: pointer;
+  background-color: rgb(96 202 96);
+  height: 3rem;
+  width: 6rem;
+  border: 0.25rem solid black;
+  border-radius: 1.5rem;
+}
+
+.SwitchButtonON {
+  justify-self: end;
+  grid-column: 1;
+  grid-row: 1;
+  height: 2.9rem;
+  width: 2.9rem;
+  border: 0.25rem solid black;
+  border-radius: 1.5rem;
+}
+
+.SwitchButtonOFF {
+  grid-column: 1;
+  grid-row: 1;
+  height: 2.9rem;
+  width: 2.9rem;
+  border: 0.25rem solid black;
+  border-radius: 1.5rem;
+}
+
+.SwitchText {
+  justify-self: start;
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0 2rem;
+  color: black;
+  font-size: 2rem;
+  font-weight: 400;
+}

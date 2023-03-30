@@ -1,0 +1,32 @@
+.container-div {
+  margin: 4rem;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chevrons {
+  font-size: 4rem;
+  flex-shrink: 0;
+  margin: 5rem;
+  cursor: pointer;
+}
+
+img {
+  width: 20rem;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.bot-icons {
+  margin: 2rem;
+}
+
+.circles {
+  cursor: pointer;
+  margin: auto 0.5rem;
+  border-radius: 50%;
+}
